@@ -1,0 +1,52 @@
+.pembayaran h3 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px; /* 140% */
+}
+
+.pembayaran p {
+  color: #6d7175;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.pembayaran span {
+  color: #131313;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px; /* 125% */
+}
+
+.banksOff::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #c9cccf;
+  margin-top: 2px;
+}
+
+.banksOn::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  margin-top: 2px;
+  background-color: #1097e7;
+}
+
+.step ul li {
+  color: #131313;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+
+.verifikasi h1 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px; /* 142.857% */
+}

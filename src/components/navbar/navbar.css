@@ -1,0 +1,77 @@
+.text-yellow {
+  color: #ffcd29;
+}
+
+.navbar-links li a:hover {
+  color: #ffcd29;
+}
+
+.logo {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.navbar-links li {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.btn-login {
+  display: flex;
+  padding: 10px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  background-color: #ff6161;
+  color: #fff;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.navbar-menu {
+  display: none;
+}
+
+.sub-nav-container {
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+  transition: ease-in-out;
+}
+
+.submenu {
+  border-radius: 0px 5px 5px 5px;
+  cursor: auto;
+}
+
+.submenu h3 {
+  cursor: pointer;
+}
+
+.submenu h3:hover {
+  color: #ff6161;
+}
+
+.text-footer {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+@media screen and (max-width: 990px) {
+  nav {
+    padding: 1rem 1rem;
+  }
+  .navbar-menu {
+    display: flex;
+  }
+}

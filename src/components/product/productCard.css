@@ -1,0 +1,80 @@
+.card {
+  max-width: 25rem;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.card:hover {
+  transform: translateY(-0.5rem);
+  box-shadow: 0.5rem 0.75rem 1.5rem #bbbbbb;
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0;
+}
+
+.card-header h4 {
+  color: #ffcd29;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.card-header h3 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.card-header p {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.content {
+  border-radius: 0 0 15px 15px;
+}
+.content h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px;
+}
+
+.content h2 {
+  color: #000;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 25px;
+}
+
+.content p span {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+}
+
+.content p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.price p {
+  color: #0acf83;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 20px;
+}
+
+.price p s {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+}

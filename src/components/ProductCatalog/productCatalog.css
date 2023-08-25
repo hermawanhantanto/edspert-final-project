@@ -1,0 +1,30 @@
+.carousel {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc(100% / 3);
+  overflow: hidden;
+}
+
+.previous,
+.next {
+  background-color: #197bff;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.prev-icon,
+.next-icon {
+  color: white;
+}
+
+@media screen and (max-width: 990px) {
+  .carousel {
+    grid-auto-columns: calc(100% / 2);
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .carousel {
+    grid-auto-columns: calc(100%);
+  }
+}

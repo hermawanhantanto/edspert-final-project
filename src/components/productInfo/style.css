@@ -1,0 +1,81 @@
+.judul h3 {
+  /* color: #197bff; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.prices s {
+  color: #6d7175;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.prices p {
+  color: #ff6a28;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+}
+
+.test {
+  background-color: #f1f7ff;
+  position: relative;
+  color: #197bff;
+}
+
+.test::after {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 48px;
+  background-color: #197bff;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.materi h1 {
+  color: #2b3e58;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.materi h2 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.materi p {
+  color: #868686;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.fasilitas h1 {
+  color: #2b3e58;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 20px;
+}
+
+.fasilitas h2 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.newslatter h1 {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 44px;
+}

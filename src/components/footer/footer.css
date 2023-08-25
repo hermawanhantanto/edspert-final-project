@@ -1,0 +1,57 @@
+.tagline h1 {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tagline p {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.foot-title {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.foot-text {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  z-index: 2;
+}
+
+.footer-foot {
+  color: #a3a3a3;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.foot-text:hover {
+  color: #ff6161;
+}
+
+.footer {
+  position: relative;
+  overflow: hidden;
+}
+.footer::before {
+  content: "";
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  position: absolute;
+  background-color: rgba(60, 145, 230, 0.07);
+  right: -8%;
+  bottom: -35%;
+  z-index: 1;
+}

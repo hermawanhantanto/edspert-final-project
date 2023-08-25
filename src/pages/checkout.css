@@ -1,0 +1,105 @@
+.navigasi p {
+  color: #1097e7;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+}
+
+.navigasi span {
+  color: #6d7175;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.header-nav {
+  color: #131313;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 32px; /* 114.286% */
+}
+.metode-pembayaran h2 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.metode-pembayaran h4 {
+  color: #131313;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+
+.metode-pembayaran p {
+  color: #6d7175;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 166.667% */
+}
+
+.bank p {
+  color: #131313;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px; /* 142.857% */
+}
+
+.rincian-pembayaran h2 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.rincian-pembayaran h3 {
+  color: #131313;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 20px; /* 142.857% */
+}
+
+.rincian-pembayaran p {
+  color: #131313;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+}
+.rincian-pembayaran span {
+  color: #1097e7;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration-line: underline; /* 171.429% */
+}
+
+.product-section h1 {
+  color: #000;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 25px; /* 125% */
+}
+
+.product-section h2 {
+  color: #000;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 25px;
+}
+
+.product-section small {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+}
+
+.product-section p {
+  color: #000;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 20px; /* 166.667% */
+}

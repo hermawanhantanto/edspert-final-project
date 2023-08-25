@@ -1,0 +1,33 @@
+.header-content h1 {
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px;
+  max-width: 603px;
+}
+
+.header-content p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 439px;
+}
+
+@media screen and (max-width: 550px) {
+  .header-section h1 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .header-section p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .header-content p,
+  h1 {
+    max-width: max-content;
+  }
+}
