@@ -55,7 +55,11 @@ const Checkout = (props) => {
                       </div>
                       <p className="ml-3">Bank Transfer ke Rek Bank Mandiri</p>
                     </div>
-                    <div className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"></div>
+                    <input
+                      type="radio"
+                      name="bank"
+                      className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"
+                    />
                   </div>
                   <div className="flex flex-row justify-between items-center border-solid border-2 rounded-xl mt-3">
                     <div className="bank flex flex-row justify-start w-100 items-center p-8">
@@ -64,7 +68,11 @@ const Checkout = (props) => {
                       </div>
                       <p className="ml-3">Bank Transfer ke Rek Bank BCA</p>
                     </div>
-                    <div className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"></div>
+                    <input
+                      type="radio"
+                      name="bank"
+                      className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"
+                    />
                   </div>
                 </div>
               )}
@@ -96,7 +104,11 @@ const Checkout = (props) => {
                       </div>
                       <p className="ml-3">Virtual Account Mandiri</p>
                     </div>
-                    <div className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"></div>
+                    <input
+                      type="radio"
+                      name="bank"
+                      className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"
+                    />
                   </div>
                   <div className="flex flex-row justify-between items-center border-solid border-2 rounded-xl mt-3">
                     <div className="bank flex flex-row justify-start w-100 items-center p-8">
@@ -105,7 +117,11 @@ const Checkout = (props) => {
                       </div>
                       <p className="ml-3">Virtual Account BCA</p>
                     </div>
-                    <div className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"></div>
+                    <input
+                      type="radio"
+                      name="bank"
+                      className="w-[20px] h-[20px] rounded-full bg-white border-solid border-2 mr-4"
+                    />
                   </div>
                 </div>
               )}

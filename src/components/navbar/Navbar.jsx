@@ -2,6 +2,9 @@ import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import { navLink } from "./navbar.js";
 import { RiMenu3Line, RiCloseLine } from "react-icons/ri";
+import { BiChevronUp } from "react-icons/bi";
+import { BiChevronDown } from "react-icons/bi";
+
 import "./navbar.css";
 
 const Navbar = () => {
@@ -30,13 +33,14 @@ const Navbar = () => {
                 key={link.id}
                 className={`${
                   active === link.title ? "text-yellow" : "text-white"
-                } font-medium cursor-pointer`}
+                } font-medium cursor-pointer flex flex-row justify-between items-center`}
                 onClick={() => {
                   if (active === link.title) setActive("");
                   else setActive(link.title);
                 }}
               >
                 <a href={`#${link.id}`}>{link.title}</a>
+                {active === link.title ? <BiChevronUp /> : <BiChevronDown />}
                 {active === link.title && (
                   <div className="absolute top-20 z-20 shadow-xl">
                     <div className="w-5 h-4 bg-white rotate-45 absolute left-0.5 mt-0.5"></div>
